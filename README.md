@@ -38,7 +38,6 @@ development.
 │   ├── baselines.py              # Linear interpolation and MDS baselines
 │   └── uncertainty_and_significance.py  # Bootstrap CIs, paired significance tests
 ├── holdout_2023/
-│   ├── aggregate_1min_to_30min.py    # Corrects 1-minute lysimeter readings to half-hourly
 │   ├── mask_2023_holdout.py          # Applies masking to the independent holdout year
 │   ├── build_2023_windows.py         # Builds model input windows for 2023
 │   ├── evaluate_2023_holdout.py      # Runs trained models on 2023 (inference only)

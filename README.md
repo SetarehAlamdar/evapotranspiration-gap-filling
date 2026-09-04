@@ -87,7 +87,6 @@ for training.
    ```
 6. **Validate on the independent 2023 holdout year**
    ```bash
-   python holdout_2023/aggregate_1min_to_30min.py   # lysimeter-specific correction step
    python holdout_2023/mask_2023_holdout.py
    python holdout_2023/build_2023_windows.py
    python holdout_2023/evaluate_2023_holdout.py
